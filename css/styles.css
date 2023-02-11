@@ -58,7 +58,7 @@ p {
 
 .btn {
   font-family: 'Poppins';
-  color: black !important;
+  color: rgb(247, 247, 148) !important;
   font-weight: 700;
   text-decoration: none;
   background: rgb(52, 161, 204);
