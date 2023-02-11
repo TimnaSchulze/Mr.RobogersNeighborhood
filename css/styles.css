@@ -44,16 +44,22 @@ p {
   padding: 0 15px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 -15px;
-}
-
-.col {
+.column {
   flex: 0 0 100%;
   max-width: 100%;
   padding: 0 15px;
+}
+
+#submit {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 2px grey;
+  box-sizing: border-box;
+  background-color: rgb(52, 161, 204);
+  color: rgb(247, 247, 148);
 }
 
 .btn {
