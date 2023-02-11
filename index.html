@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Mr.Roboger's Neighborhood</title>
+  <script rel="scripts" src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1>Mr. Roboger's Neighborhood</h1>
+        <P>Mr. Roboger likes to count. Please enter a number for Mr. Roboger to count to. You will see some surprises when he finds numbers he likes!</P>
+        <form>
+          <label for="number">Enter your number here:</label>
+          <input id="number" type="number1" name="number">
+
+          <button type="button" class="btn" onclick="roboLanguage()">See what Mr.R Says</button>
+          <div id="submit"></div>
+          <button id="tryAgain" class="btn" onclick="tryAgain()">Try Again</button>
+          <div id="tryAgain"></div>
+
+          <div id="roboLanguage" class="hidden">
+            <p></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
